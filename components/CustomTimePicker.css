@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.custom-time-picker .rc-time-picker-input {
+    top: 4px;
+    left: 10px;
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+
+}
+
+.custom-time-picker .rc-time-picker-clear {
+    display: none;
+    font-size: 16px;
+
+}
+
+.clock-icon {
+    position: relative;
+    left: 120px;
+    top: 50%;
+    transform: translateY(-115%);
+    color: #060505;
+    cursor: pointer;
+    pointer-events: all;
+
+}
+
+.rc-time-picker-panel-inner {
+
+    left: 10px;
+    margin-top: 36px;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+.rc-time-picker-panel-select {
+    color: #030303;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    top: 50%;
+    height: 300px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+}
+
+.rc-time-picker-panel-select::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari y Opera */
+
+}
+
+.rc-time-picker-panel-inner .rc-time-picker-panel-select-option-selected {
+    background-color: #2c2f79;
+    color: #fdfcfc;
+    font-size: 16px;
+}
+
+.rc-time-picker-panel-inner .rc-time-picker-panel-select-option-selected:hover {
+    border: 2px solid #000000;
+    background-color: #2c2f79;
+    color: #fdfcfc;
+    font-size: 16px;
+}
+
+.rc-time-picker-panel-inner .rc-time-picker-panel-select .rc-time-picker-panel-select-option:hover {
+    background-color: #2c2f79;
+    color: #ffffff;
+}
+
+.check-in-label {
+    color: #030303;
+    font-family: 'Montserrat', sans-serif;
+}
